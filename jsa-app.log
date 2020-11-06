@@ -1,0 +1,11 @@
+2020-07-10 10:18:05.321  INFO 3756 --- [main] c.j.r.SpringRabbitMqSubcriberApplication : Starting SpringRabbitMqSubcriberApplication on DESKTOP-A6MJEAN with PID 3756 (E:\MESSAGINGPROJECT\subscribe\SpringRabbitMQSubscriber\target\classes started by Divya in E:\MESSAGINGPROJECT\subscribe\SpringRabbitMQSubscriber)
+2020-07-10 10:18:05.326  INFO 3756 --- [main] c.j.r.SpringRabbitMqSubcriberApplication : No active profile set, falling back to default profiles: default
+2020-07-10 10:18:05.423  INFO 3756 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@11392934: startup date [Fri Jul 10 10:18:05 IST 2020]; root of context hierarchy
+2020-07-10 10:18:06.547  INFO 3756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$32521622] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-10 10:18:07.321  INFO 3756 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-07-10 10:18:07.330  INFO 3756 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2020-07-10 10:18:07.334  INFO 3756 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2020-07-10 10:18:07.373  INFO 3756 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase -2147482648
+2020-07-10 10:18:07.374  INFO 3756 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2020-07-10 10:18:07.411  INFO 3756 --- [SimpleAsyncTaskExecutor-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#70977a6:0/SimpleConnection@398fa89c [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64124]
+2020-07-10 10:18:07.462  INFO 3756 --- [main] c.j.r.SpringRabbitMqSubcriberApplication : Started SpringRabbitMqSubcriberApplication in 2.753 seconds (JVM running for 5.124)
